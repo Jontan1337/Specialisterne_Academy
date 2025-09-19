@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\SPAC-30\\source\\repos\\Kod_En_Lommeregner\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{89EB4063-8B63-4EA8-B8A3-3F8D30A61109}|Kod_En_Lommeregner\\Kod_En_Lommeregner.csproj|c:\\users\\spac-30\\source\\repos\\kod_en_lommeregner\\kod_en_lommeregner\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89EB4063-8B63-4EA8-B8A3-3F8D30A61109}|Kod_En_Lommeregner\\Kod_En_Lommeregner.csproj|solutionrelative:kod_en_lommeregner\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\SPAC-30\\source\\repos\\Kod_En_Lommeregner\\Kod_En_Lommeregner\\Program.cs",
+              "RelativeDocumentMoniker": "Kod_En_Lommeregner\\Program.cs",
+              "ToolTip": "C:\\Users\\SPAC-30\\source\\repos\\Kod_En_Lommeregner\\Kod_En_Lommeregner\\Program.cs",
+              "RelativeToolTip": "Kod_En_Lommeregner\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T11:34:37.272Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
