@@ -1,0 +1,14 @@
+C:\Users\SPAC-30\source\repos\Kod_En_Lommeregner\Kod_En_Lommeregner\bin\Debug\net8.0\Kod_En_Lommeregner.exe
+C:\Users\SPAC-30\source\repos\Kod_En_Lommeregner\Kod_En_Lommeregner\bin\Debug\net8.0\Kod_En_Lommeregner.deps.json
+C:\Users\SPAC-30\source\repos\Kod_En_Lommeregner\Kod_En_Lommeregner\bin\Debug\net8.0\Kod_En_Lommeregner.runtimeconfig.json
+C:\Users\SPAC-30\source\repos\Kod_En_Lommeregner\Kod_En_Lommeregner\bin\Debug\net8.0\Kod_En_Lommeregner.dll
+C:\Users\SPAC-30\source\repos\Kod_En_Lommeregner\Kod_En_Lommeregner\bin\Debug\net8.0\Kod_En_Lommeregner.pdb
+C:\Users\SPAC-30\source\repos\Kod_En_Lommeregner\Kod_En_Lommeregner\obj\Debug\net8.0\Kod_En_Lommeregner.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SPAC-30\source\repos\Kod_En_Lommeregner\Kod_En_Lommeregner\obj\Debug\net8.0\Kod_En_Lommeregner.AssemblyInfoInputs.cache
+C:\Users\SPAC-30\source\repos\Kod_En_Lommeregner\Kod_En_Lommeregner\obj\Debug\net8.0\Kod_En_Lommeregner.AssemblyInfo.cs
+C:\Users\SPAC-30\source\repos\Kod_En_Lommeregner\Kod_En_Lommeregner\obj\Debug\net8.0\Kod_En_Lommeregner.csproj.CoreCompileInputs.cache
+C:\Users\SPAC-30\source\repos\Kod_En_Lommeregner\Kod_En_Lommeregner\obj\Debug\net8.0\Kod_En_Lommeregner.dll
+C:\Users\SPAC-30\source\repos\Kod_En_Lommeregner\Kod_En_Lommeregner\obj\Debug\net8.0\refint\Kod_En_Lommeregner.dll
+C:\Users\SPAC-30\source\repos\Kod_En_Lommeregner\Kod_En_Lommeregner\obj\Debug\net8.0\Kod_En_Lommeregner.pdb
+C:\Users\SPAC-30\source\repos\Kod_En_Lommeregner\Kod_En_Lommeregner\obj\Debug\net8.0\Kod_En_Lommeregner.genruntimeconfig.cache
+C:\Users\SPAC-30\source\repos\Kod_En_Lommeregner\Kod_En_Lommeregner\obj\Debug\net8.0\ref\Kod_En_Lommeregner.dll
