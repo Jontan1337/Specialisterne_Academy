@@ -1,59 +1,129 @@
-# Wordle
+# Wordle Clone
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.2.
+A clone of the popular word-guessing game **Wordle**, built with Angular.\
+The goal of this project is to recreate the Wordle gameplay experience while practicing **state management**, **responsive design**, and **physical keyboard integration**.
 
-## Development server
+---
 
-To start a local development server, run:
+## Description
 
-```bash
-ng serve
+This project is a web-based Wordle clone that works on both desktop and mobile devices.\
+The game randomly selects a secret word, and the player has six attempts to guess it.\
+After each guess, feedback is provided:
+
+- **Green**: The letter is correct and in the correct position.
+- **Yellow**: The letter exists in the word but in the wrong position.
+- **Gray**: The letter does not exist in the word.
+
+The project is developed in **Angular** using **TypeScript**, and it uses a `BehaviorSubject` to manage game state.\
+The UI is should be responsive and adapt automatically to different screen sizes, featuring an on-screen keyboard for mobile users.
+
+---
+
+## Getting Started
+
+### Dependencies
+
+Before running this project, make sure you have the following installed:
+
+- **Node.js** (v18 or later recommended)
+- **Angular CLI**
+  ```bash
+  npm install -g @angular/cli
+  ```
+- **Git** for cloning the repository
+
+The project has been developed and tested on:
+
+- Windows 11
+- Firefox
+- Visual Studio Code
+
+---
+
+### Installing
+
+1. **Clone the repository from GitHub:**
+
+   ```bash
+   git clone https://github.com/jontan1337/Specialisterne_Academy.git
+   ```
+
+2. **Install dependencies:**
+
+   ```bash
+   npm install
+   ```
+
+---
+
+### Running the application
+
+To run the project locally:
+
+1. Start the Angular development server:
+
+   ```bash
+   ng serve
+   ```
+
+   Alternatively add `-o` as an argument to automatically open the page in your browser and skip step 2.
+
+2. Open your browser and navigate to:
+
+   ```bash
+   http://localhost:4200
+   ```
+
+3. The game should now be running and ready to play.
+---
+
+## Help
+
+**Issue:** PowerShell shows an error saying scripts cannot be run due to execution policy restrictions.
+
+Run
+```powershell
+Get-ExecutionPolicy
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+It might say "Restricted"
 
-## Code scaffolding
+**Solution:** Run PowerShell as administrator and execute:
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
+```powershell
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+---
 
-```bash
-ng generate --help
-```
+## Authors
 
-## Building
+- **[Jontan1337]**\
+  GitHub: [@jontan1337](https://github.com/jontan1337)
 
-To build the project run:
+---
 
-```bash
-ng build
-```
+## Version History
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+- **0.1**
 
-## Running unit tests
+  - Created Wordle Clone.
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+---
 
-```bash
-ng test
-```
+## Acknowledgments
 
-## Running end-to-end tests
+- [Wordle](https://www.nytimes.com/games/wordle/) for the original inspiration.
+- [Angular](https://angular.io/) for the frontend framework.
+- ChatGPT for tips and helping relearn Angular.
 
-For end-to-end (e2e) testing, run:
+---
 
-```bash
-ng e2e
-```
+## Missing features / Future Improvements
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+- Random words everyday.
+- Save guess history untill each new day.
+- Word validation so you can't just spam gibberish.
+- High contrast.
+- Toast or some visual to show when the player won or lost.

@@ -1,0 +1,41 @@
+#keyboard {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	max-width: 500px;
+	margin: 30px auto;
+	gap: 3px;
+}
+
+.letter-row {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	gap: 3px;
+}
+
+.key {
+	flex: 1;
+	height: 50px;
+	background-color: gray;
+	border-radius: 3px;
+	color: white;
+	cursor: pointer;
+	border: 0;
+}
+
+.letter-row:nth-child(2) {
+	margin: 0 20px;
+	width: calc(100% - 40px);
+}
+
+.letter-row:last-child .key:first-child,
+.letter-row:last-child .key:last-child {
+	flex: 1.5;
+}
+
+.absent {
+	color: black;
+  	background-color: var(--letter-absent-bg);
+}

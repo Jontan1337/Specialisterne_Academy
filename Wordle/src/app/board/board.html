@@ -1,0 +1,22 @@
+<div id="board">
+	@if ($state | async; as state) {
+		@for (row of rows | range; track row) {
+			<div class="row" [ngClass]="row === state.guesses.length ? 'current' : ''">
+				@for (tile of tiles | range; track tile) {
+					<div class="tile"
+					[ngClass]="
+						row < state.guesses.length
+						? state.guesses[row].tiles[tile].state
+						: ''
+					">
+						{{
+							row < state.guesses.length
+							? state.guesses[row].tiles[tile].letter
+							: (row === state.guesses.length ? (state.currentGuess[tile] || '') : '')
+						}}
+					</div>
+				}
+			</div>
+		}
+	}
+</div>

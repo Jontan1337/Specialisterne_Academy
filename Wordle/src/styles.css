@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+	--letter-default-bg: #767676;
+	--letter-partial-bg: #cad80d;
+	--letter-correct-bg: #32b44e;
+	--letter-absent-bg: #444;
+}
+
+.high-contrast {
+	--letter-default-bg: #767676;
+	--letter-partial-bg: #31e2fa;
+	--letter-correct-bg: #ffc340;
+	--letter-absent-bg: #444;
+}

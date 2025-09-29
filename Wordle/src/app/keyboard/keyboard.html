@@ -1,0 +1,17 @@
+<div id="keyboard">
+	@for (letterRows of letters; track $index) {
+		<div class="letter-row">
+			@for (letter of letterRows; track $index) {
+				<button (click)="handleClick(letter)" class="key"
+				[ngClass]="(gameService.$state | async)?.keyStates?.[letter] || 'idle'">
+				@if (letter === 'BACKSPACE') {
+					<img src="./Backspace.png" alt="" srcset="">
+				}
+				@else {
+					{{ letter }}
+				} 
+				</button>
+			}
+		</div>
+	}
+</div>
